@@ -31,7 +31,7 @@ Olimpia Milano - Cantù | 55-60 -->
             'point_team_2' => '0'
         ],
     ];
-
+    
     for ($i = 0; $i < count($partite); $i++) {
         echo $partite[$i]['team1'].'-'.$partite[$i]['team2'].'-'.$partite[$i]['point_team_1'].'-'.$partite[$i]['point_team_2'].'<br>';
     }; 

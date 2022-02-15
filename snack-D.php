@@ -12,5 +12,5 @@ Il cuscino, prodotto da una ditta di Pechino, è stato diffuso in 135.000 pezzi 
 $pieces = explode(".", $paragrafo);
 
 var_dump ($pieces)
-        
+
 ?>
