@@ -16,11 +16,12 @@ while (++$i <= 15) {
     /* echo "numero random nel while:".$numberoRandom; */
     /* echo $arrayNumeri; */
     if(!in_array($numberoRandom, $arrayNumeri )){
-        /* echo "entrato in if \n".'<br>'; */
+        echo "entrato in if e pusho il numero  \n".'<br>'; 
         $arrayNumeri[] =  $numberoRandom;
         /* echo "numero random nell if:".$numberoRandom;
         echo '-'.$i.$arrayNumeri.$numeroRandom.'<br>';  */
     }else{
+        echo "Numero doppio decremento la I  \n".'<br>'; 
         --$i;
     }
     
