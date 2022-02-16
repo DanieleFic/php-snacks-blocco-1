@@ -51,4 +51,5 @@
         echo $alunni[$i]['nome'].' '.$alunni[$i]['Cognome'].'-'.$average.'<br>';
     };
 
+    
 ?>

@@ -18,6 +18,6 @@ echo "<h1>".$paragrafo."</h1>";
 echo "<h1>Divisione in Paragrafi </h1>";
 
 for ($i = 0; $i < count($pieces); $i++) {
-    echo "<h3>".$pieces[$i]."</h3>"."<br>";
+    echo "<h3>".$pieces[$i]."."."</h3>"."<br>";
 }; 
 ?>
