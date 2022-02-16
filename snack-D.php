@@ -11,6 +11,13 @@ Il cuscino, prodotto da una ditta di Pechino, è stato diffuso in 135.000 pezzi 
 
 $pieces = explode(".", $paragrafo);
 
-var_dump ($pieces)
+/* var_dump ($pieces) */
 
+echo "<h1>".$paragrafo."</h1>";
+
+echo "<h1>Divisione in Paragrafi </h1>";
+
+for ($i = 0; $i < count($pieces); $i++) {
+    echo "<h3>".$pieces[$i]."</h3>"."<br>";
+}; 
 ?>

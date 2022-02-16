@@ -45,8 +45,8 @@
 
 
     for ($i = 0; $i < count($alunni); $i++) {
-        
-        $average = array_sum($alunni[$i]['voti']) / count($alunni[$i]['voti']);
+
+        $average = array_sum($alunni[$i]['voti']) / count($alunni[$i]['voti']); //media dei voti 
 
         echo $alunni[$i]['nome'].' '.$alunni[$i]['Cognome'].'-'.$average.'<br>';
     };
